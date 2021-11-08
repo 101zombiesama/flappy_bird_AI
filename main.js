@@ -32,7 +32,7 @@ function animate () {
 
     resetCanvas();
 
-    if (frameNumber % 100 == 0) {
+    if (frameNumber % 120 == 0) {
         pipes.push(new Pipe());
     }
     
